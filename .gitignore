@@ -137,3 +137,13 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore OneDrive stuff outside project
+AppData/
+Desktop.ini
+*.lnk
+
